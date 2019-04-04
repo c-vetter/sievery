@@ -1,0 +1,30 @@
+{
+  "name": "sievery",
+  "description": "Removes unwanted lines from files",
+  "version": "0.0.1",
+  "author": "rasenplanscher",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "cli.js",
+  "files": [
+    "cli.js",
+    "fs.js"
+  ],
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "minimist": "^1.2.0"
+  },
+  "homepage": "https://github.com/rasenplanscher/sievery#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasenplanscher/sievery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rasenplanscher/sievery/issues"
+  },
+  "keywords": [
+    "sifting",
+    "filtering",
+    "text"
+  ]
+}
